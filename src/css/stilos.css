@@ -3,6 +3,8 @@
 body {
   background-color: #282828;
   color: #fff;
+  max-width: 2000px;
+  min-width: 600px;
 }
 
 .cabecalho {
