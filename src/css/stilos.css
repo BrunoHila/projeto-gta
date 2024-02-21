@@ -3,24 +3,24 @@
 body {
   background-color: #282828;
   color: #fff;
-  max-width: 2000px;
-  min-width: 600px;
+  max-width: 1000px;
+  min-width: 300px;
 }
 
 .cabecalho {
   height: 80%;
-  background-color: #0b0b0b;
+  background-color: #0b0b0bec;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 80px;
-  border-bottom: 1px solid #282828;
+  border-bottom: 1px solid #202020;
 }
 
 .cabecalho .logo {
   display: flex;
   gap: 15px;
-  
+
 }
 
 .cabecalho .menu {
@@ -54,31 +54,32 @@ body {
     90deg,
     rgba(0, 0, 0, 0.85),
     rgba(0, 0, 0, 0.7) 35%,
-    transparent 65%
-  );
+    transparent 65%);
 }
 
 
 .home .imagem-fundo {
   width: 100%;
   object-fit: cover;
-  background-repeat: no-repeat;
+
 }
 
 .home .informacoes {
   position: absolute;
   z-index: 1;
-  min-height: calc(100vh - 80px);
+  min-height: calc(100vh - 90px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 32px;
+  gap: 31px;
   padding: 80px 80px 80px 170px;
   max-width: 780px;
+  
 }
 
-.home .informacoes img {
+img .home .informacoes {
   max-width: 150px;
+
 }
 
 .home .informacoes .lista-de-jogos {
@@ -105,16 +106,16 @@ body {
   font-family: "ChaletComprime";
   font-size: 28px;
   text-align: center;
-  padding: 20px 40px;
+  padding: 30px 40px;
   text-transform: uppercase;
-  width: 50%;
   transition: all 0.5s ease-in;
 }
 
 .btn-plataforma {
   color: #fff;
-  width: 100%;
-  cursor: pointer;
+  width: auto;
+  cursor: default;
+  line-height: 40px;
 }
 
 .btn-comprar:hover {
@@ -161,7 +162,7 @@ body {
 .compre-ja .informacoes h3 {
   font-family: "ChaletComprime";
   font-size: 52px;
-  font-weight: 700;
+  font-weight: 700px;
 }
 
 .compre-ja .informacoes p {
@@ -171,14 +172,14 @@ body {
   line-height: 1.6;
 }
 
-.compre-ja .informacoes .plataforma {
+.compre-ja .informacoes .plataformas {
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
   justify-content: center;
 }
 
-.compre-ja .btn-plataforma .plataforma {
+.compre-ja .btn-plataforma .plataformas {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
